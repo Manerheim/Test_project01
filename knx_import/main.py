@@ -74,33 +74,53 @@ for rows in ede_dict:
     # ... other key-value pairs ...
 }
 
-#testing nr hello sir
-
 for key, values in ede_dict.items():
     # Code for each key
     # Example: print(f"Processing key: {key}")
-    print(key)
+    key_split = []
+    key_split = key.split('.')
+    print(key_split[2][:2])
 
-    # Check for specific combinations of values
-    if 'PV1' in values and 'PV3' in values:
-        # Code for when both PV1 and PV3 are present
-        # Example: print("PV1 and PV3 are present together")
-        print(values)
-    
-        # Process each value individually
-        for value in values:
-            # Code for each individual value
-            # Example: print(f"Processing value: {value}")
-            print(value)
-
-            # You can also add specific conditions for each value
-            if value == 'PV1':
-                # Code specific to PV1
-                pass
-            elif value == 'PV3':
-                # Code specific to PV3
-                pass
-            # ... and so on for other specific cases
+    # Process each value individually
+    for value in values:
+        # Code for each individual value
+        # Example: print(f"Processing value: {value}")
+        #print(value)
+        # You can also add specific conditions for each value
+        if value == 'PV1':
+            # Code specific to PV1
+            pass
+        elif value == 'PV2':
+            # Code specific to PV3
+            pass
+        elif value == 'PV3':
+            # Code specific to PV3
+            pass
+        elif value == 'PV4':
+            # Code specific to PV3
+            pass
+        elif value == 'PV5':
+            # Code specific to PV3
+            pass
+        elif value == 'PV6':
+            # Code specific to PV3
+            pass
+        elif value == 'PV7':
+            # Code specific to PV3
+            pass
+        elif value == 'PV8':
+            # Code specific to PV3
+            pass
+        elif value == 'PV9':
+            # Code specific to PV3
+            pass
+        elif value == 'PV10':
+            # Code specific to PV3
+            pass
+        elif value == 'PV11':
+            # Code specific to PV3
+            pass
+        # ... and so on for other specific cases
 
 
 
